@@ -10,13 +10,13 @@
     <script>
     var setting = {
         // 在以下双引号中粘贴QQ钱包收款链接
-        qqUrl: "https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&f=wallet&a=1&ac=8C60DB51BD448AE7610E1B8901EE59FCC6380EE2C8E05E0034A09C241808B6C3&u=1127737438&n=%E9%99%95%E8%81%8C%E4%BB%A3%E7%9C%8B%E7%BD%91%E8%AF%BE%E8%80%81%E5%B8%88",
+        qqUrl: "https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&f=wallet&a=1&ac=4EB5C54D7BE3E7D535ED7BD2FAC26FFFC6380EE2C8E05E0034A09C241808B6C3&u=1127737438&n=%E9%99%95%E8%81%8C%E4%BB%A3%E7%9C%8B%E7%BD%91%E8%AF%BE%E8%80%81%E5%B8%88",
         
         // 在以下双引号中粘贴微信收款链接
-        wechatUrl: "HTTPS://QR.ALIPAY.COM/FKX06483BJ8CQBD5VI6ODA",
+        wechatUrl: "wxp://f2f0cNl8Jtfsvu979fUBc0MWMqCesr8bTjrv",
         
         // 在以下双引号中粘贴支付宝收款链接
-        aliUrl: "wxp://f2f05un4M4NacXR2_HluOE-uwR7HxN1hSLSL",
+        aliUrl: "HTTPS://QR.ALIPAY.COM/FKX04007XKY39UTRKM2C0A?t=1544878200126",
         
         // 用于动态生成二维码的API，不需要修改。
         qrcodeApi: "http://qr.liantu.com/api.php?text="    
@@ -136,7 +136,7 @@
         // 其它，显示“万能码”
         document.getElementById("page-url").src = setting.qrcodeApi + urlEncode(window.location.href);
         document.getElementById("code-all").style.display = "block";
-    } 
+    }
     
     /*****************************************
      * url编码函数
